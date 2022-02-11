@@ -1,6 +1,6 @@
 {
   "name": "tinkoff-invest",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Tinkoff Invest gRPC Client with TypeScript definitions",
   "keywords": [
     "grpc",
