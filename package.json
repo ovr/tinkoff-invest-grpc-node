@@ -1,11 +1,17 @@
 {
   "name": "tinkoff-invest",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Tinkoff Invest gRPC Client with TypeScript definitions",
+  "keywords": [
+    "grpc",
+    "tinkoff",
+    "typescript"
+  ],
   "main": "dist/src/index.js",
   "typings": "dist/src/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
   },
   "files": [
     "dist/src"
