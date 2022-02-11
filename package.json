@@ -1,0 +1,28 @@
+{
+  "name": "tinkoff-invest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/src/index.js",
+  "typings": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "dist/src"
+  ],
+  "author": "Dmitry Patsura",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^17.0.14",
+    "grpc-tools": "^1.11.2",
+    "grpc_tools_node_protoc_ts": "^5.3.2",
+    "ts-protoc-gen": "^0.15.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.5.4",
+    "@types/google-protobuf": "^3.15.5",
+    "google-protobuf": "^3.19.4",
+    "nanoid": "^3.2.0"
+  }
+}
